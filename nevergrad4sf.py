@@ -146,7 +146,7 @@ def ng4sf(
                     method="constraint",
                 )
                 .set_mutation(
-                    sigma=(float(sf_params[v][2]) - float(sf_params[v][1])) / 4
+                    sigma=(float(sf_params[v][2]) - float(sf_params[v][1])) / 8
                 )
             )
 
